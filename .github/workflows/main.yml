@@ -35,5 +35,5 @@ jobs:
         - name: Deploying web app to Azure
           uses: azure/webapps-deploy@v1
           with:
-            app-name: aplikacja180502023
+            app-name: arturr
             publish-profile: ${{ secrets.AZURE_WEB_APP_PUBLISH_PROFILE }}
